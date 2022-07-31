@@ -1,3 +1,9 @@
+-- Pregunta 2, Parte b, Examen 3 CI3641.
+-- Elaborado por Roberto Gamboa, 16-10394
+
+-- Implementacion que recibe la ruta de una carpeta y cuenta todos los archivos
+-- en sus subdirectorios
+
 import Control.Monad ( forM )
 import System.Directory
     ( listDirectory,
